@@ -1,0 +1,151 @@
+.Hunger-counter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images/photo3.avif");
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+
+.text1, .text2, .text3, .text4{
+    font-weight: bold;
+    color: rgb(30 168 150);
+    
+}
+
+ .explanation{
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+    
+ }
+
+
+
+.body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(76, 84,84);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.text4{
+    margin: auto;
+    padding-top: 1%;
+    width: 400px;
+    font-weight: bold;
+    line-height: 150%;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(137%,10%);
+}
+.text3{
+        margin: auto;
+        padding-bottom: 1%;
+        width: 400px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 150%;
+        border-bottom: 5px solid rgb(65,105,225);
+        background: none;
+        position: absolute;
+        transform: translate(60%,-90%);
+}
+
+.Side-photo{
+    display: flex;
+    float: right;
+    width: 20%;
+    height: 30em;
+    
+}
+.Side-photo2{
+    display: flex;
+    float: left;
+    width: 80%;
+    height: 23em;
+
+    
+    
+}
+*{
+    background-color: rgb(76,84,84);
+    overflow:auto;
+    
+}
+.Name{
+    border-color: rgb(30 168 150);
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.back{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text-button{
+    display: flex;
+    margin-left: 41.7%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputs{
+    color: rgb(30 168 150);
+}
+
+.Gif{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    float: bottom;
+    padding-top: 200px;
+}
+
+.Hunger-counter, .donate, .hunger-website, .back{
+    color: white;
+}
+
+.text2{
+    margin: auto;
+    justify-content: start;
+    align-items: end;
+    width: 600px;
+    font-size: 18px;
+    background: none;
+    
+    
+}
+
+.text1{
+    position: absolute;
+    transform: translate(5%,0);
+    background: none;
+    width: 90%;
+}
+.objective{
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+    position: absolute;
+    transform: translate(200%,-500%);
+    z-index: 1;
+
+}
+
